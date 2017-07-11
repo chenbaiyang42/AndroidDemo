@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+    <Button
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:text="initRecord"
+        android:id="@+id/initRecord"/>
+    <Button
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:text="startRecord"
+        android:id="@+id/startRecord"/>
+
+    <Button
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:text="stop"
+        android:id="@+id/stop"/>
+
+    <Button
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:text="release"
+        android:id="@+id/release"/>
+
+
+    <TextView
+        android:id="@+id/amtitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textSize="26sp"/>
+
+
+    </LinearLayout>
